@@ -1,0 +1,411 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <title >Index Page</title>
+
+
+  <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+
+
+<!-- Bootstrap CDN -->
+
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+<!-- Bootstrap CDN -->
+
+  <!-- Font Awesome -->
+
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+  <!-- Font Awesome -->
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+<!-- DatePicker -->
+
+<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/timepicker/1.3.5/jquery.timepicker.min.css">
+<link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+
+  <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+<!-- DatePicker -->
+
+<!-- ionicicons -->
+<script src="https://unpkg.com/ionicons@4.2.2/dist/ionicons.js"></script>
+<!-- ionicicons -->
+
+
+<!-- Owl Carousel  -->
+<link rel="stylesheet" href="asset/owl_carousel/owl.carousel.min.css">
+<link rel="stylesheet" href="asset/owl_carousel/owl.theme.default.min.css">
+<!-- <script src="jquery.min.js"></script> -->
+<script src="asset/owl_carousel/owl.carousel.min.js"></script>
+<!-- Owl Carousel  -->
+
+
+
+  <link rel="stylesheet" href="asset/css/Style.min.css">
+
+    <!-- Googlefonts -->
+    <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Raleway" />
+    <!-- Googlefonts -->
+
+
+<script src="asset/javascript/klezcarscript.js"> </script>
+
+
+<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/timepicker/1.3.5/jquery.timepicker.min.css">
+<script src="//cdnjs.cloudflare.com/ajax/libs/timepicker/1.3.5/jquery.timepicker.min.js"></script>
+
+<script src="asset/javascript/Date&TimePicker.js"> </script>
+
+<script>
+$(document).ready(function(){
+
+  // back to Top
+  // ===== Scroll to Top ====
+
+  $(window).scroll(function() {
+
+      if ($(this).scrollTop() >= 50) {        // If page is scrolled more than 50px
+          $('#return-to-top').fadeIn(200);    // Fade in the arrow
+      } else {
+          $('#return-to-top').fadeOut(200);   // Else fade out the arrow
+      }
+  });
+  $('#return-to-top').click(function() {      // When arrow is clicked
+      $('body,html').animate({
+          scrollTop : 0                       // Scroll to top of body
+      }, 600);
+  });
+
+
+  $('.owl-carousel').owlCarousel({
+    stagePadding: 30,
+      loop:false,
+      margin:0,
+        mouseDrag:false,
+
+      // nav:true,
+      responsive:{
+          0:{
+              items:1
+          },
+
+          1000:{
+
+              items:3
+          }
+      }
+  })
+
+
+
+});
+
+
+
+
+</script>
+
+
+</head>
+
+<body>
+
+  <!-- Return to Top -->
+  <a href="javascript:" id="return-to-top"><i class="icon-chevron-up"> <ion-icon name="arrow-round-up"></ion-icon></i></a>
+
+
+  <div id="nav-placeholder">
+
+</div>
+
+<!-- Masthead -->
+<header class="masthead_index ">
+
+  <div class="overlay"></div>
+  <div class="container container-custom pb-0">
+  <div id="BookingForm" >
+
+  </div>
+
+  <div class="text-center">
+    <a href="SelectACar" class="unchecked"> <button class="btn btn-original mt-3 text-center col-12 col-lg-2 mb-4" type="submit" > Book Now</button> </a>
+  </div>
+  </div>
+</header>
+
+
+<!-- Icons  -->
+<section class="features-icons_index  text-center">
+<div class="container-custom pb-0">
+    <h3 class="text_header_medium"> How to Rent</h3>
+
+  <div class="container pt-3">
+    <div class="row">
+      <div class="col-lg-3 col-md-6 col-6">
+        <div class="features-icons-item mx-auto mb-0  mb-lg-5 mb-lg-0 mb-lg-3">
+          <div class="features-icons-icon d-flex">
+            <i class="icon-screen-desktop ml-auto mr-auto mb-0 mt-auto"> <ion-icon name="md-pin"></ion-icon></i>
+          </div>
+          <h4 >Locate</h4>
+          <p class="text_desc mb-0"> Select Your <br> Pick Up & Return Location</p>
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-6 col-6">
+        <div class="features-icons-item mx-auto mb-0  mb-lg-3">
+          <div class="features-icons-icon d-flex">
+            <i class="icon-layers ml-auto mr-auto mb-0 mt-auto"> <ion-icon name="md-car"></ion-icon> </i>
+          </div>
+          <h4>Select</h4>
+          <p class="text_desc mb-0"> Select the car <br> that you want to rent</p>
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-6 col-6">
+        <div class="features-icons-item mx-auto mb-0 mb-lg-3">
+          <div class="features-icons-icon d-flex">
+            <i class="icon-check ml-auto mr-auto mb-0 mt-auto "> <ion-icon name="md-camera"></ion-icon> </i>
+          </div>
+          <h4>PickUp</h4>
+          <p class="text_desc mb-0">Take the picture of <br> the car during pickup</p>
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-6 col-6">
+        <div class="features-icons-item mx-auto mb-0 mb-lg-3">
+          <div class="features-icons-icon d-flex">
+            <i class="icon-check ml-auto mr-auto mb-0 mt-auto"><ion-icon name="md-unlock"></ion-icon> </i>
+          </div>
+          <h4>Unlock</h4>
+          <p class="text_desc mb-0">Unlock the car using <br> website or application</p>
+        </div>
+      </div>
+    </div>
+  </div>
+   </div>
+</section>
+
+<!-- Icons  -->
+
+<!-- Why Rent  -->
+
+<section class="whyrent_index  text-center">
+<div class="container-custom ">
+    <h3 class="text_header_medium pb-3"> Why Rent a Car?</h3>
+
+  <div class="container pt-3 ">
+    <div class="row " style="padding-left:0px;">
+
+<div class="owl-carousel">
+      <div class="col-lg-12">
+
+        <div class="card card_index container">
+
+        <div class="row ">
+          <div class="col-12 col-lg-12">
+         <div class="justify-content-center align-items-center pl-md-5 pr-md-5" > <img src="asset/images/Why_Rent_Icon.svg" alt="Car That exist" class="imgwhy"  width="100%" height="200px"></div> </div>
+
+        <div class="col-12 col-lg-12"> <h5 > <b> Looking for a Deal?  </b> </h5>
+        <p> Share your Code to
+            <br> earn cash and discounts. </p>
+      </div>
+
+      <div class="col-12"><a class="unchecked" href="#!"  > <button type="button" class="btn  btn-original-outline col-sm-12" >Learn More</button> </a> </div>
+
+    </div>   </div>
+
+      </div>
+
+      <div class="col-lg-12">
+
+        <div class="card card_index container">
+
+        <div class="row ">
+          <div class="col-12 col-lg-12">
+         <div class="justify-content-center align-items-center pl-md-5 pr-md-5" > <img src="asset/images/Why_Rent_Icon.svg" alt="Car That exist" class="imgwhy"  width="100%" height="200px"></div> </div>
+
+        <div class="col-12 col-lg-12"> <h5 > <b> Earn Points </b> </h5>
+        <p> Earn Points for every Booking.
+              <br>Collect points  rewards.  </p>
+      </div>
+
+      <div class="col-12"><a class="unchecked" href="#!"  > <button type="button" class="btn  btn-original-outline col-sm-12" >Learn More</button> </a> </div>
+
+    </div>   </div>
+
+      </div>
+
+      <div class="col-lg-12">
+
+        <div class="card card_index container">
+
+        <div class="row ">
+          <div class="col-12 col-lg-12">
+         <div class="justify-content-center align-items-center pl-md-5 pr-md-5" > <img src="asset/images/Why_Rent_Icon.svg" alt="Car That exist" class="imgwhy"  width="100%" height="200px"></div> </div>
+
+        <div class="col-12 col-lg-12"> <h5 > <b> Refferal Rewards  </b> </h5>
+        <p> Share your Code to <br>
+                earn cash and discounts</p>
+      </div>
+
+      <div class="col-12"><a class="unchecked" href="#!"  > <button type="button" class="btn  btn-original-outline col-sm-12" >Learn More</button> </a> </div>
+
+    </div>   </div>
+
+      </div>
+
+
+
+</div>
+      </div>
+    </div>
+
+
+
+  </div>
+
+</section>
+
+
+
+<!-- Why Rent  -->
+
+<!-- Promotions -->
+
+<section class=" promotion_index container-fluid">
+  <div class="container-custom pb-0 text-center">
+      <h3 class="text_header_medium"> Promotions </h3> </div>
+
+
+          <div id="promotioncomponent" >
+
+          </div>
+
+</section>
+<!-- Promotions -->
+
+
+<!-- Review  -->
+<section class="review_index  text-center container-fluid ">
+<div class="container-custom">
+    <h3 class="text_header_medium pb-3"> Customer Feedback</h3>
+
+  <div class=" pt-3 ">
+    <div class="row " style="padding-left:0px;">
+
+<div class="owl-carousel">
+      <div class="col-lg-12">
+
+        <div class="card card_review ">
+
+        <div class="row ">
+          <div class="col-12 col-lg-12">
+         <div class="justify-content-center align-items-center imgbox" > <img src="https://s3.amazonaws.com/uifaces/faces/twitter/mantia/128.jpg" alt="Car That exist"   width="100%" ></div> </div>
+
+        <div class="col-12 col-lg-12">
+        <p> Great Service
+            <br> Easily Usable </p>
+            <h5 > <b> Abu Aiman  </b> </h5>
+      </div>
+
+    </div>   </div>
+
+      </div>
+
+      <div class="col-lg-12">
+
+        <div class="card card_review ">
+
+        <div class="row ">
+          <div class="col-12 col-lg-12">
+         <div class="justify-content-center align-items-center imgbox" > <img src="https://s3.amazonaws.com/uifaces/faces/twitter/mantia/128.jpg" alt="Car That exist"   width="100%" ></div> </div>
+
+        <div class="col-12 col-lg-12">
+        <p> Good for
+            <br> family trip </p>
+            <h5 > <b> Shahriduan  </b> </h5>
+      </div>
+
+    </div>   </div>
+
+      </div>
+
+      <div class="col-lg-12">
+
+        <div class="card card_review ">
+
+        <div class="row ">
+          <div class="col-12 col-lg-12">
+         <div class="justify-content-center align-items-center imgbox" > <img src="https://s3.amazonaws.com/uifaces/faces/twitter/mantia/128.jpg" alt="Car That exist"   width="100%" ></div> </div>
+
+        <div class="col-12 col-lg-12">
+        <p> Amazing
+            <br> as Always </p>
+            <h5 > <b> Elyanna </b> </h5>
+      </div>
+
+    </div>   </div>
+
+      </div>
+
+
+
+
+</div>
+      </div>
+    </div>
+
+  </div>
+
+</section>
+
+<!-- Review  -->
+
+
+
+
+<!-- Download Our Application -->
+<section class="download_index  text-center container-fluid ">
+<div class="container-custom">
+    <h3 class="text_header_medium pb-3"> Download Our Application</h3>
+
+  <div class=" container pt-3 pr-5 pl-5">
+    <div class="row justify-content-around flex-wrap">
+
+
+      <div class="col-12 col-md-6 mb-5 mb-0">
+        <image class="imgdownload" src="asset/images/androiddownload.png"  ></image>
+      </div>
+      <div class="col-12 col-md-6">
+        <image class="imgdownload" src="asset/images/appledownload.png" ></image>
+      </div>
+
+
+
+    </div>
+    </div>
+
+
+
+  </div>
+
+</section>
+
+<!-- Download Our Application -->
+
+
+</body>
+
+
+  <div id="footer-placeholder">
+
+</div>
+
+
+
+</html>

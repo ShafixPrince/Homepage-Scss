@@ -1,0 +1,85 @@
+@import 'breakpoints.scss';
+// @import 'variables.scss';
+
+
+  .card_custom{
+border-radius: 7px;
+border:none;
+-webkit-box-shadow: 0 4px 10px -4px rgba(0, 0, 0, 0.44);
+   -moz-box-shadow: 0 4px 10px -4px rgba(0, 0, 0, 0.44);
+        box-shadow: 0 4px 10px -4px rgba(0, 0, 0, 0.44);
+
+}
+
+
+
+
+//cardforcustomerfeeedback in customerfeedback.html
+
+.card_customer_feedback{
+  border:none;
+  padding-left:none;
+  padding-right: none;
+  padding-bottom: 10%;
+  padding-top:2%;
+
+  @include md{
+    border-radius: 7px;
+    border:none;
+    -webkit-box-shadow: 0 4px 10px -4px rgba(0, 0, 0, 0.44);
+       -moz-box-shadow: 0 4px 10px -4px rgba(0, 0, 0, 0.44);
+            box-shadow: 0 4px 10px -4px rgba(0, 0, 0, 0.44);
+            cursor:pointer;
+
+            padding-bottom: 10%;
+            padding-top:2%;
+  }
+}
+
+
+
+//cardforcustomerfeedback in customerfeedback.html
+
+//card for why you shoul rent in  indexhtml
+.card_index{
+  border-radius: 7px;
+  border:none;
+  -webkit-box-shadow: 0 4px 10px -4px rgba(0, 0, 0, 0.44);
+     -moz-box-shadow: 0 4px 10px -4px rgba(0, 0, 0, 0.44);
+          box-shadow: 0 4px 10px -4px rgba(0, 0, 0, 0.44);
+          cursor:pointer;
+
+          padding-bottom: 10%;
+          padding-top:2%;
+          margin-bottom: 1rem;
+}
+
+.card_index:hover{
+
+  .imgwhy{
+  @include lg{
+
+
+        transform: scale(1.1,1.1); /* Standard syntax */
+      -ms-transform: scale(1.1,1.1); /* IE 9 */
+  -webkit-transform: scale(1.1,1.1); /* Safari prior 9.0 */
+
+
+  }
+}
+}
+//card for why you should rent in  indexhtml
+
+
+//card for review in in index html
+.card_review{
+    padding-bottom: 10%;
+  border-radius: 7px;
+  -webkit-box-shadow: 0 4px 10px -4px rgba(0, 0, 0, 0.44);
+     -moz-box-shadow: 0 4px 10px -4px rgba(0, 0, 0, 0.44);
+          box-shadow: 0 4px 10px -4px rgba(0, 0, 0, 0.44);
+              margin-bottom: 1rem;
+              border-top: 5px solid color(primary);
+
+}
+//card for review in in index html

@@ -1,0 +1,145 @@
+
+$primary_font_family: 'Raleway', 'sans-serif';
+$primary_font_family_semibold: 'Raleway', 'semi-bold';
+
+
+
+
+
+//basic font-size
+h1 {
+  font-family: $primary_font_family;
+}
+h2 {
+  font-family: $primary_font_family;
+}
+h3 {
+  font-family: $primary_font_family;
+}
+h4 {
+  font-family: $primary_font_family;
+}
+h5 {
+  font-family: $primary_font_family;
+}
+h6 {
+  font-family: $primary_font_family;
+}
+p {
+  font-family: $primary_font_family;
+}
+b{
+  font-family: $primary_font_family;
+}
+a{
+  font-family: $primary_font_family;
+}
+
+a:visited{
+    font-family: $primary_font_family;
+  color:black;
+}
+
+a:hover{
+  font-family: $primary_font_family;
+  text-decoration: none;
+
+}
+
+label{
+  font-family: $primary_font_family;
+}
+//basic fonts
+
+
+//custom fonts change color and thickness
+
+.lockedtext{
+  font-weight: 600;
+  color: color(danger);
+}
+
+.drivingtext{
+  font-weight: 600;
+  color: color(green);
+}
+
+
+
+
+
+//custom fonts change color and thickness
+
+//Color
+
+
+
+
+.brandcolor{
+ color:color(primary);
+}
+
+.blue{
+  color:color(primary);
+}
+
+.blue:hover{
+  color:color(primary);
+}
+
+.gray{
+  color:color(blacklow);
+}
+
+
+.dangercolor{
+  color:color(danger);
+}
+
+$colors: (
+  primary: #ff396f,
+  primary-light: lighten(#ff396f,10%),
+    primary-transparent: lighten(#ff396f,25%),
+
+  primary-dark: darken(#005DFF, 40%),
+  danger: #E74C3C,
+  green: #2ECC71,
+  yellow: #FFE000,
+  white: rgb(255, 255, 255),
+  black: rgb(0, 0, 0),
+  blacklow:lighten(#000000, 70%)
+);
+
+@function color($color-name) {
+  @return map-get($colors, $color-name)
+};
+
+
+//FONTS
+
+@function fontsize($font-size) {
+  @return map-get($fontsizes, $font-size)
+}
+
+
+$fontsizes:(
+
+// the header and body page size for most of the page
+  headersmall: calc(20px + (29 - 20) * ((100vw - 300px) / (1600 - 300))),
+  bodytext: calc(12px + (16 - 12) * ((100vw - 300px) / (1600 - 300))),
+  bodytextmedium:calc(16px + (18 - 16) * ((100vw - 300px) / (1600 - 300))),
+  headerweight: 600,
+  descline: 1.5em,
+  descweight:400,
+
+// the header and body page size for most of the page
+
+
+
+  headerlarge:calc(14px + (36 - 12) * ((100vw - 300px) / (1600 - 300))),
+  headermedium:calc(12px + (28 - 12) * ((100vw - 300px) / (1600 - 300))),
+  semibold:500,
+);
+
+
+/* this is how you put a value to a variable and can be used anywhere in the scss file */

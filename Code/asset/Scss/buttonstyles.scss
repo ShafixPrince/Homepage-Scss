@@ -1,0 +1,161 @@
+// @import 'variables.scss';
+@import 'breakpoints.scss';
+
+
+.btn-original{
+  color: color(white) ;
+  background-color: color(primary);
+  padding: .25rem .5rem;
+    font-size: .875rem;
+    line-height: 1.5;
+    border-radius: .2rem;
+
+    &:hover {
+      color:color(white);
+        background-color: color(primary);
+  }
+
+    @include lg{
+
+      padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    }
+
+
+}
+
+
+.btn-original-circle{
+  color: color(white) ;
+  background-color: color(primary);
+  // // padding: .25rem .5rem;
+  //   font-size: .875rem;
+  //   line-height: 1.5;
+    border-radius: 50%;
+  //
+  //   &:hover {
+  //     color:color(white);
+  //       background-color: color(primary);
+  // }
+  //
+  //   @include lg{
+  //
+  //
+  //   font-size: 1rem;
+  //   line-height: 1.5;
+  //   }
+
+
+}
+
+
+
+
+
+.btn-original-outline{
+  color: color(primary) ;
+  background-color: color(white);
+  border: 1px solid color(primary);
+  padding: .25rem .5rem;
+    font-size: .875rem;
+    line-height: 1.5;
+    border-radius: .2rem;
+
+    &:hover {
+      color:color(white);
+        background-color: color(primary);
+  }
+
+    @include lg{
+
+      padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    }
+
+
+}
+
+.btn-wrong{
+  background-color: color(danger)  ;
+  padding: .25rem .5rem;
+    font-size: .875rem;
+    line-height: 1.5;
+    border-radius: .2rem;
+
+  @include lg{
+
+    padding: .375rem .75rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  }
+
+
+}
+
+.btn-approve{
+
+  background-color: color(green)  ;
+  padding: .25rem .5rem;
+    font-size: .875rem;
+    line-height: 1.5;
+    border-radius: .2rem;
+
+    @include lg{
+
+      padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    }
+
+
+}
+
+.btn-approve-outline{
+
+  background-color: color(white)  ;
+  border:1px solid color(green);
+  color:color(green);
+  padding: .25rem .5rem;
+    font-size: .875rem;
+    line-height: 1.5;
+    border-radius: .2rem;
+
+    @include lg{
+
+      padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    }
+
+
+}
+
+
+.btn-approve-outline:hover{
+    background-color: color(green)  ;
+}
+
+.btn-yellow{
+  background-color: color(yellow);
+
+  padding: .25rem .5rem;
+    font-size: .875rem;
+    line-height: 1.5;
+    border-radius: .2rem;
+
+  @include lg{
+
+    padding: .375rem .75rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  }
+
+}
+
+
+
+.border_black_bottom{
+  border-bottom: 1px solid black;
+}

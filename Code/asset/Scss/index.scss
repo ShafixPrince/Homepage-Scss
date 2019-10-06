@@ -1,0 +1,217 @@
+
+
+
+
+
+//index styles
+
+header.masthead_index {
+  position: relative;
+  background-color:#dee2e6 ;
+  background: url('../images/People.JPG') no-repeat center center;
+  background-attachment: fixed;
+  @include background-cover;
+  @include lg{
+
+  padding-bottom: 10rem;
+}
+  .overlay {
+    position: absolute;
+    background-color: #FFFFFF;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    opacity: 0.9;
+  }
+
+}
+
+
+.features-icons_index {
+  padding-top: 3rem;
+  padding-bottom: 5rem;
+  background-color: color(primary);
+  color:color(white);
+  .features-icons-item {
+    max-width: 20rem;
+    .features-icons-icon {
+      color:color(white);
+      height: 5rem;
+      @include lg{
+          height: 10rem;
+      }
+
+      i {
+        font-size: 4rem;
+        @include lg{
+        font-size: 8rem;
+      }
+      }
+    }
+
+  }
+}
+
+//whyrent
+
+.whyrent_index {
+
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  background-color: color(primary-transparent);
+  color:color(black);
+
+
+
+.imgwhy{
+  height:200px;
+  @include md{
+    height:200px;
+  }
+
+  @include lg{
+    height: auto;
+  }
+
+  }
+
+
+
+}
+
+
+//whyrent
+
+//promotions components
+
+.promotion_index{
+  padding-top: 3rem;
+padding-left: 0.9375rem;
+padding-right: 0.9375rem;
+padding-bottom: 5rem;
+
+@include lg{
+  padding-left: 10rem;
+  padding-right: 10rem;
+}
+
+}
+
+//promotions index
+
+//reviiew index
+
+.review_index{
+  padding-top: 3rem;
+padding-left: 0.9375rem;
+padding-right: 0.9375rem;
+padding-bottom: 3rem;
+background-color: color(primary-transparent);
+color:color(black);
+
+@include lg{
+  padding-left: 10rem;
+  padding-right: 10rem;
+}
+
+.imgbox{
+  width: 135px;
+	height: 135px;
+	margin: 0 auto;
+  margin-top:20px;
+    margin-bottom:20px;
+	padding: 5px;
+	border: 1px solid #ddd;
+	border-radius: 50%;
+
+  img{
+    width: 100%;
+height: 100%;
+display: block;
+border-radius: 50%;
+  }
+}
+
+}
+
+
+//review index
+
+
+//download_index
+
+.download_index{
+  padding-top: 3rem;
+
+padding-bottom: 3rem;
+
+
+.imgdownload{
+  width: 70%;
+
+  @include md{
+    width: 50%;
+  }
+
+}
+
+}
+
+
+
+
+//download_index
+
+
+
+//return to top style
+
+
+
+#return-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.7);
+    width: 50px;
+    height: 50px;
+    display: block;
+    text-decoration: none;
+    -webkit-border-radius: 35px;
+    -moz-border-radius: 35px;
+    border-radius: 35px;
+    display: block;
+    -webkit-transition: all 0.3s linear;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+    z-index: 50;
+}
+#return-to-top i {
+    color: #fff;
+    margin: 0;
+    position: relative;
+    left: 16px;
+    top: 13px;
+    font-size: 19px;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+#return-to-top:hover {
+    background: rgba(0, 0, 0, 0.9);
+}
+#return-to-top:hover i {
+    color: #fff;
+    top: 5px;
+}
+
+//
+
+
+//index style

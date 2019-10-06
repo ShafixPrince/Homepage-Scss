@@ -1,0 +1,89 @@
+
+@import 'variables.scss';
+@import 'breakpoints.scss';
+
+$font-weights: 'Raleway', sans-serif;
+
+
+
+
+
+.navbar{
+background-color:color(primary);
+
+.navbar-brand{
+  width: 75%;
+background-color:color(primary);
+  @include sm {
+         width: 30%;
+
+     }
+
+  @include lg {
+         width: 30%;
+
+     }
+     @include xl {
+            width: 15%;
+
+        }
+}
+
+
+.nav-item{
+
+
+    a{
+      color:color(white);
+      font-style: $font-weights;
+      background-color: color(primary);
+
+    }
+
+  @include lg {
+         padding-right:44px;
+     }
+
+
+}
+
+
+  .dropdown-menu{
+
+    border-radius: 0;
+    background-color: color(primary);
+    border: 1px solid color(black);
+    a{
+      color:color(white);
+    }
+
+    .dropdown-item{
+      border-bottom: 1px solid color(white);
+      border-width: thin;
+    }
+  }
+
+
+
+}
+
+.page-footer{
+
+  background-color: color(primary);
+  color:color(white);
+  padding-bottom: 3%;
+  padding-top: 3%;
+
+.clearfix{
+  border-top: 1px solid rgba(255, 255, 255, 0.27);
+
+}
+
+  a{
+    color:color(white);
+  }
+
+a:visited{
+    color:color(white);
+}
+}

@@ -1,0 +1,75 @@
+$breakpoints: (
+// Small tablets and large smartphones (landscape view)
+  small:576px,
+  //   // Small tablets (portrait view)
+  medium:768px,
+     // Tablets and small desktops
+  large:992px,
+  // Large tablets and desktops
+  xlarge:1200px,
+
+
+);
+
+
+//
+//
+// // Small tablets and large smartphones (landscape view)
+//   $screen-sm-min: 576px;
+//
+//   // Small tablets (portrait view)
+//   $screen-md-min: 768px;
+//
+//   // Tablets and small desktops
+//   $screen-lg-min: 992px;
+//
+//   // Large tablets and desktops
+//   $screen-xl-min: 1200px;
+
+
+
+@mixin sm {
+   @media (min-width: #{map-get($breakpoints, small);}) {
+       @content;
+   }
+}
+
+// Medium devices
+@mixin md {
+   @media (min-width: #{map-get($breakpoints,medium)}) {
+       @content;
+   }
+}
+
+// Large devices
+@mixin lg {
+   @media (min-width: #{map-get($breakpoints,large)}) {
+       @content;
+   }
+}
+
+// Extra large devices
+@mixin xl {
+   @media (min-width: #{map-get($breakpoints,xlarge)}) {
+       @content;
+   }
+}
+
+@mixin rwd($screen) {
+   @media (min-width: $screen+'px') {
+       @content;
+   }
+}
+
+
+//the responsive $breakpoints
+
+//background mixins
+@mixin background-cover {
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+// backgroudn mixins

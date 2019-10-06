@@ -1,0 +1,88 @@
+@import 'breakpoints.scss';
+// @import 'variables.scss';
+//modal boxes style
+//modal if you want it full
+.modal-full {
+    min-width: 100%;
+    margin: 0;
+    border:none;
+
+
+    @include lg{
+      min-width: 70%;
+      margin: 0;
+      -webkit-transform: translate(0,-50%);
+       -o-transform: translate(0,-50%);
+       transform: translate(0,-50%);
+       top: 20%;
+       margin: 0 auto;
+
+
+    }
+
+
+    .modal-content {
+        min-height: 100vh;
+        border:none;
+        border-radius: 0px;
+
+        @include md{
+          min-height: auto;
+        }
+    }
+
+    .modal-body{
+      flex:none;
+    }
+
+    .modal-footer{
+     display: inline-block;
+    }
+
+
+}
+
+// modal for modal-refferal in rental options
+.modal-refferal {
+    min-width: 100%;
+    margin: 0;
+    border:none;
+
+
+    @include md{
+      min-width: 70%;
+      margin: 0;
+      -webkit-transform: translate(0,-50%);
+       -o-transform: translate(0,-50%);
+       transform: translate(0,-50%);
+       top: 20%;
+       margin: 0 auto;
+
+
+    }
+
+
+    .modal-content {
+        min-height: 100vh;
+        border:none;
+        border-radius: 0px;
+
+        @include md{
+          min-height: auto;
+        }
+    }
+
+    .modal-body{
+      flex:none;
+    }
+
+    .modal-footer{
+     display: inline-block;
+    }
+
+
+}
+// modal for modal-refferal in rental options
+
+// modal if you want it full
+// modalboxstyle

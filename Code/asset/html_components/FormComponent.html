@@ -1,0 +1,413 @@
+
+<head>
+  <!-- ionicicons -->
+  <script src="https://unpkg.com/ionicons@4.2.2/dist/ionicons.js"></script>
+  <!-- ionicicons -->
+  </head>
+
+<!-- mobile version of form  -->
+<div class="custom-form-mobile d-lg-none">
+<div class="row ">
+
+
+
+<div class="col-12">
+
+<div class="text-center mt-2" id="headertextmobile">
+ </div>
+
+      <h3 class="text_header_medium text-center"> Rent a Car Now!</h3>
+
+  <div class="form-group mt-4 mb-2">
+    <label class="mb-2" for="usr">Pick Up</label>
+    <input type="text" class="form-control" id="usr" placeholder="Please Select Pick Up Location Boi">
+  </div>
+
+</div>
+
+
+
+
+  <div class=" col-6 mb-1" style="padding-right:3px;">
+
+  <input type="date" name="bday"  class="form-control" id="today">
+  </div>
+
+  <div class="col-6 mb-1" style="padding-left:3px;">
+
+
+
+
+
+
+       <select  class="form-control "  id="exampleFormControlSelect1" style="-webkit-appearance:none;" >
+         <option>12:00</option>
+         <option>12:30</option>
+         <option>1:00</option>
+         <option>1:30</option>
+         <option>2:00</option>
+         <option>2:30</option>
+          <option>3:00</option>
+       </select>
+
+
+
+  </div>
+
+
+<!-- Return -->
+  <div class="col-12">
+
+    <div class="form-group mt-2 mb-2">
+      <label class="mb-2" for="usr">Return</label>
+      <input type="text" class="form-control" id="usr" placeholder="Please Select Return Location">
+    </div>
+
+  </div>
+
+
+
+
+    <div class=" col-6" style="padding-right:3px;">
+
+    <input class="form-control" type="date" id="today2">
+    </div>
+
+    <div class="col-6" style="padding-left:3px;">
+
+
+
+
+
+
+         <select  class="form-control " id="exampleFormControlSelect1" style="-webkit-appearance:none;" >
+           <option>12:00</option>
+           <option>12:30</option>
+           <option>1:00</option>
+           <option>1:30</option>
+           <option>2:00</option>
+           <option>2:30</option>
+            <option>3:00</option>
+         </select>
+
+
+
+    </div>
+<!-- Return -->
+
+<!-- <div class="container">
+  <button class="container btn btn-original mt-3 btn-block col-12" type="submit"> Book Now</button>
+</div> -->
+
+</div>
+</div>
+
+<!-- mobile version of form  -->
+
+
+
+
+<!-- Web version of form  -->
+<div class="row   d-lg-flex d-none ">
+  <div class="col-12">
+
+    <div class="custom-form">
+
+<div id="headertextweb">
+      <h3 class="text_header_medium"> Rent a Car Now!</h3>
+  </div>
+
+<div id="unchecked-form">
+<div class="text-display mb-0">
+
+            <div class="text-display1 ">
+
+          <p class="mb-0"> Select Location </p>
+            </div>
+            <div class="text-display2 ">
+
+              <p class="mb-0"> From </p>
+            </div>
+            <div class="text-display3">
+
+                <p class="mb-0"> Until </p>
+            </div>
+
+
+</div>
+
+        <div class="field-group">
+          <div class="field-fields">
+
+
+
+            <div class="search-field mb-3 ">
+
+
+              <input type="text" class="form-control rounded-0" id="searchtext" placeholder="Please Select Your Pick Up and Return Location">
+                 <ul class="list-group" id="result"></ul>
+            </div>
+
+
+<!-- <div id="match-list"> </div> -->
+
+
+            <div class="search-date mb-3 ">
+
+
+              <input type="text" id="datepicker" class="form-control rounded-0" placeholder="Date Pick Up">
+            </div>
+
+            <div class="search-time mb-3">
+              <select  class="form-control  rounded-0"   id="exampleFormControlSelect1" style="-webkit-appearance:none;" >
+                <option>9:00</option>
+                <option>9:30</option>
+                <option>10:00</option>
+                <option>10:30</option>
+                <option>11:00</option>
+                <option>11:30</option>
+                 <option>12:00</option>
+                 <option>12:30</option>
+                 <option>13:00</option>
+                 <option>13:30</option>
+                 <option>14:00</option>
+                 <option>14:30</option>
+                 <option>15:00</option>
+                  <option>15:30</option>
+                  <option>16:00</option>
+                  <option>16:30</option>
+                  <option>17:00</option>
+                  <option>17:30</option>
+                  <option>18:00</option>
+                  <option>18:30</option>
+                   <option>19:00</option>
+                   <option>19:30</option>
+                   <option>20:00</option>
+                   <option>20:30</option>
+                   <option>21:00</option>
+                   <option>21:30</option>
+                   <option>22:00</option>
+
+              </select>
+            </div>
+            <div class="search-date mb-3 ">
+
+              <input type="text" id="datepicker2" class="form-control rounded-0" placeholder="Date Return">
+            </div>
+            <div class="search-time mb-3">
+
+              <select  class="form-control  rounded-0"   id="exampleFormControlSelect1" style="-webkit-appearance:none;" >
+                <option>9:00</option>
+                <option>9:30</option>
+                <option>10:00</option>
+                <option>10:30</option>
+                <option>11:00</option>
+                <option>11:30</option>
+                 <option>12:00</option>
+                 <option>12:30</option>
+                 <option>13:00</option>
+                 <option>13:30</option>
+                 <option>14:00</option>
+                 <option>14:30</option>
+                 <option>15:00</option>
+                  <option>15:30</option>
+                  <option>16:00</option>
+                  <option>16:30</option>
+                  <option>17:00</option>
+                  <option>17:30</option>
+                  <option>18:00</option>
+                  <option>18:30</option>
+                   <option>19:00</option>
+                   <option>19:30</option>
+                   <option>20:00</option>
+                   <option>20:30</option>
+                   <option>21:00</option>
+                   <option>21:30</option>
+                   <option>22:00</option>
+              </select>
+
+            </div>
+
+          </div>
+
+        </div>
+
+</div>
+
+
+
+  <!-- Checked       -->
+  <div id="checked-form" class="d-none"  >
+        <!-- Pick Up Part of Form -->
+        <div class="text-display-checked mb-0">
+
+                    <div class="text-display1 ">
+
+                  <p class="mb-0"> Pick Up</p>
+                    </div>
+                    <div class="text-display2 ">
+
+                      <p class="mb-0"> From </p>
+                    </div>
+                    <div class="text-display3">
+
+                        <p class="mb-0"> Until </p>
+                    </div>
+
+
+        </div>
+
+                <div class="field-group">
+                  <div class="field-fields-checked">
+
+
+
+                    <div class="search-field mb-3 ">
+
+
+                      <input type="text" class="form-control rounded-0" id="usr" placeholder="Please Select Pick Up Location">
+                    </div>
+
+
+
+                    <div class="search-date mb-3 ">
+
+
+                      <input type="text" id="datepicker3" class="form-control rounded-0" placeholder="Date Pick Up">
+                    </div>
+
+                    <div class="search-time mb-3">
+                      <select  class="form-control  rounded-0" id="exampleFormControlSelect1" style="-webkit-appearance:none;" >
+                        <option>9:00</option>
+                        <option>9:30</option>
+                        <option>10:00</option>
+                        <option>10:30</option>
+                        <option>11:00</option>
+                        <option>11:30</option>
+                         <option>12:00</option>
+                         <option>12:30</option>
+                         <option>13:00</option>
+                         <option>13:30</option>
+                         <option>14:00</option>
+                         <option>14:30</option>
+                         <option>15:00</option>
+                          <option>15:30</option>
+                          <option>16:00</option>
+                          <option>16:30</option>
+                          <option>17:00</option>
+                          <option>17:30</option>
+                          <option>18:00</option>
+                          <option>18:30</option>
+                           <option>19:00</option>
+                           <option>19:30</option>
+                           <option>20:00</option>
+                           <option>20:30</option>
+                           <option>21:00</option>
+                           <option>21:30</option>
+                           <option>22:00</option>
+                      </select>
+                    </div>
+
+                  </div>
+
+                </div>
+
+        <!-- Pick Up Part of Form -->
+
+        <!-- Return Part of Form -->
+
+                <div class="text-display-checked">
+
+                            <div class="text-display1 ">
+
+                          <p class="mb-0"> Return </p>
+                            </div>
+                            <div class="text-display2 ">
+
+                              <p class="mb-0"> From </p>
+                            </div>
+                            <div class="text-display3">
+
+                                <p class="mb-0"> Until </p>
+                            </div>
+
+
+                </div>
+
+                        <div class="field-group">
+                          <div class="field-fields-checked">
+
+
+
+                            <div class="search-field mb-3 ">
+
+
+                              <input type="text" class="form-control rounded-0" id="usr" placeholder="Please Select Your Return Location">
+                            </div>
+
+
+
+                            <div class="search-date mb-3 ">
+
+
+                              <input type="text" id="datepicker4" class="form-control rounded-0" placeholder="Date Return">
+                            </div>
+
+                            <div class="search-time mb-3">
+
+                              <select  class="form-control  rounded-0" id="exampleFormControlSelect1" style="-webkit-appearance:none;" >
+                                <option>9:00</option>
+                                <option>9:30</option>
+                                <option>10:00</option>
+                                <option>10:30</option>
+                                <option>11:00</option>
+                                <option>11:30</option>
+                                 <option>12:00</option>
+                                 <option>12:30</option>
+                                 <option>13:00</option>
+                                 <option>13:30</option>
+                                 <option>14:00</option>
+                                 <option>14:30</option>
+                                 <option>15:00</option>
+                                  <option>15:30</option>
+                                  <option>16:00</option>
+                                  <option>16:30</option>
+                                  <option>17:00</option>
+                                  <option>17:30</option>
+                                  <option>18:00</option>
+                                  <option>18:30</option>
+                                   <option>19:00</option>
+                                   <option>19:30</option>
+                                   <option>20:00</option>
+                                   <option>20:30</option>
+                                   <option>21:00</option>
+                                   <option>21:30</option>
+                                   <option>22:00</option>
+                              </select>
+                            </div>
+
+                          </div>
+
+                        </div>
+
+</div>
+        <!-- Return Part of Form -->
+<!-- Checked -->
+
+
+
+        <div class=" checkbox" >
+  <!-- <label class="form-check-label"> -->
+    <input type="checkbox" class="form-check-input" value="" id="boxcheck"> Return Different Location
+  <!-- </label> -->
+</div>
+
+
+  <!-- <button class="btn btn-original mt-3 text-center" type="submit" > Book Now</button> -->
+
+
+
+    </div>
+
+  </div>
+</div>

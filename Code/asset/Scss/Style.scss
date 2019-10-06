@@ -1,0 +1,169 @@
+// For Promotions Page
+@import 'variables.scss';
+@import 'breakpoints.scss';
+@import 'navbarfooter.scss';
+
+@import 'promotioncomponent.scss';
+
+@import 'buttonstyles.scss';
+@import 'GradientHeader.scss';
+@import 'BookingFormStyle.scss';
+@import 'customdatatable.scss';
+@import 'modalboxstyle.scss';
+@import 'cardcomponent.scss';
+@import 'index.scss';
+$p-top:8%;
+$p-bottom:8%;
+
+body {
+    height: 100vh;
+}
+
+
+
+
+
+.container-custom{
+
+  padding-top: 3%;
+  padding-bottom: $p-bottom;
+  height: auto;
+
+  .text_header_medium{
+    font-family: $primary_font_family_semibold;
+    font-size: fontsize(headersmall); //fontsizefuction is in variables.scss
+  font-weight: fontsize(headerweight);
+
+
+
+}
+
+.text_header_medium_blue{
+     color:color(primary);
+     font-size: fontsize(headersmall);
+     font-weight: fontsize(semibold);
+
+}
+
+
+
+.text_desc_medium{
+  font-family: $primary_font_family;
+  font-size:fontsize(bodytextmedium);
+  font-weight: fontsize(descweight);
+  line-height: fontsize(descline);
+
+
+
+}
+
+
+  .text_desc{
+    font-family: $primary_font_family;
+    font-size:fontsize(bodytext);
+    font-weight: fontsize(descweight);
+    line-height: fontsize(descline);
+
+
+
+  }
+
+
+
+
+.text_header_large{
+font-family: $primary_font_family;
+     font-size: fontsize(headerlarge);
+     font-weight: fontsize(headerweight);
+
+}
+
+//text for refferal page
+
+.refferal_headerbig_text{
+  font-family: $primary_font_family;
+  font-size: calc(14px + (24 - 14) * ((100vw - 300px) / (1600 - 300)));
+   font-weight: fontsize(semibold);
+}
+
+
+.refferal_headersmall_text{
+  font-family: $primary_font_family;
+  font-size: calc(14px + (18 - 14) * ((100vw - 300px) / (1600 - 300)));
+   font-weight: fontsize(semibold);
+}
+
+
+.refferal_body_text{
+  font-family: $primary_font_family;
+  font-size: calc(12px + (16 - 12) * ((100vw - 300px) / (1600 - 300)));
+
+}
+//text for refferal page
+
+
+
+//for 3 navigation for MyRefferal Navigation and Share and Redeem Refferal
+.text_desc_nav{
+font-family: $primary_font_family;
+ font-size: fontsize(headermedium);
+ font-weight: fontsize(headerweight);
+}
+
+
+
+.borderblack{
+  border:0.5px solid color(black);
+
+}
+
+
+//iconsize
+
+.iconsize{
+
+width: 30px;
+height: 30px;
+
+@include lg{
+  width: 40px;
+  height: 40px;
+}
+}
+//iconsize
+
+
+
+
+//the rectangles for step by step components
+.bluerectangle{
+  height: 6px;
+  background-color: color(primary);
+
+}
+
+.grayrectangle{
+  height: 6px;
+  background-color: color(blacklow);
+
+}
+
+// the rectangles for step by step components
+
+
+
+
+  .container-blueoutline{
+    border:0px;
+
+    @include md{
+      border:3px solid color(primary);
+    }
+  }
+
+
+
+
+
+
+}
